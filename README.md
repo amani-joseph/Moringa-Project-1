@@ -1,7 +1,7 @@
-# Moringa-Project-1 Yomolo E-commerce website
+# Moringa-Project-1 Yolomy E-commerce website
 
 # Project Decription
-This is an iterative and responsive e-commerce website called Yomolo
+This is an iteractive and responsive e-commerce website called Yolomy
 # OBJECTIVES
 This is a school project with the objective of demonstrating the following
 1. proficiency with Git and Github version control system.
@@ -12,7 +12,10 @@ This is a school project with the objective of demonstrating the following
 
 
 # Built with
-HTML
-CSS
-BOOTSTRAP
-JS
+1. HTML
+2. CSS
+3.  [BOOTSTRAP](https://getbootstrap.com/)
+4. JS
+
+# META
+Amani Joseph – @amani_joseph_ - mr.amanijoseph@gmail.com
