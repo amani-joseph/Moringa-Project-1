@@ -1,0 +1,20 @@
+
+
+
+
+.border-dark{
+    border-color: #908361 !important;
+   
+}
+#about_us{
+    max-width: 50%;
+}
+@media screen and (max-width: 600px)  {
+    #about_us{
+        max-width: 80;
+    }
+    #about_us.p{
+        max-width: 80%;
+    }
+          
+}
