@@ -55,7 +55,33 @@ let womenProducts = document.querySelectorAll('#productWomen');
 
 
 // *PRODUCT FILTERS
+let allProducts = document.querySelectorAll('#product');
+let mensProducts = document.querySelectorAll('#productMen');
+let womenProducts = document.querySelectorAll('#productWomen');
 
+let selectMen = document.querySelector('#inlineCheckbox1');
+let selectWomen = document.querySelector('#inlineCheckbox2');
+
+// TRIAL
+let MEN = document.querySelector('#MENS');
+let WOMEN = document.querySelector('#WOMENS');
+
+selectMen.addEventListener('change', function(){
+  console.log('men selected');
+  if(this.checked){
+    WOMEN.className = 'd-none';
+  } else{
+    WOMEN.classList.remove('d-none');
+  }
+});
+selectWomen.addEventListener('change', function(){
+  console.log('women selected');
+  if(this.checked){
+    MEN.className = 'd-none';
+  } else{
+    MEN.classList.remove('d-none');
+  }
+});
 
 // # SMOOTH SCROLL
 window.addEventListener('scroll',() => {
